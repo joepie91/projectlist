@@ -45,7 +45,7 @@ foreach($data["projects"] as $project_name => $project_data)
 			</p>
 			
 			<p>
-				If you're looking for my personal homepage, <a href="http://cryto.net/~joepie91">this is where you want to be</a>.
+				If you're looking for my personal homepage, <a href="http://cryto.net/~joepie91">this is where you want to be</a>. Alternatively, you can <a href="http://cryto.net/~joepie91/donate.html">donate</a>.
 			</p>
 			
 			<p>
