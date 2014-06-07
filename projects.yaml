@@ -1,0 +1,480 @@
+categories:
+    maintained:
+        name: Actively Maintained
+        description: These projects are actively developed. Bug reports and feature suggestions are welcomed. Development is generally ongoing.
+    in_progress:
+        name: Work In Progress
+        description: These projects are currently being worked on, but are generally not yet in a usable state, or are getting a significant rewrite.
+    finished:
+        name: Finished
+        description: These projects are (usually) feature-complete, or no longer relevant. Small bugs may get fixed, but other than that no development occurs.
+    experiments:
+        name: Experiments
+        description: Just dabbling around with code. These projects may or may not turn into something useful. No guarantees.
+    on_hold:
+        name: On Hold
+        description: These are projects that are not currently in active development, but will be in the future. Reasons vary.
+    planned:
+        name: Planned
+        description: These are projects that are planned, but for which no (or extremely little) code exists yet. Typically in design stages.
+    unmaintained:
+        name: Unmaintained
+        description: The dead and the buried. These projects are abandoned, and no longer receive any updates. Use at your own risk.
+projects:
+    Fleet:
+        category: planned
+        notes: This project consists of a number of other sub-projects. These sub-projects reference Fleet in their description or notes.
+        description: A distributed hosted services grid for non-profit projects.
+        contributions_accepted: no
+    PDF Inspector:
+        category: planned
+        description: A web-based PDF equivalent of Developer Tools, for debugging and taking apart PDF files.
+        contributions_accepted: no
+    Image Batcher:
+        category: planned
+        description: A GUI tool for batch-processing images using GraphicsMagick.
+        contributions_accepted: no
+    AnonNews:
+        category: in_progress
+        description: An uncensored news and discussion platform about Anonymous and (loosely) related topics.
+        notes: Currently undergoing a significant rewrite.
+        version: 2.0
+        website: http://anonnews.org/
+        repository: https://github.com/joepie91/anonnews2
+        contributions_accepted: no
+        license: WTFPL / CC0
+    ReDonate:
+        category: maintained
+        notes: Needs work. In particular in the area of statistics.
+        description: Recurring contributions, done right.
+        website: http://redonate.net/
+        repository: https://github.com/joepie91/redonate
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    pastebin-scrape:
+        category: maintained
+        notes: Broke a while ago, then magically started working again. Reason unclear.
+        description: A resilient Pastebin.com scraper.
+        website: https://archive.org/details/pastebinpastes
+        repository: https://github.com/joepie91/pastebin-scrape
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    circd-node:
+        category: experiments
+        description: A second attempt at writing an IRCd, this time in Node.js.
+        repository: https://github.com/joepie91/circd-node
+        contributions_accepted: no
+        license: WTFPL / CC0
+    pythonwhois:
+        category: maintained
+        description: A library for retrieving and parsing WHOIS data in Python.
+        version: 2.2.2
+        website: http://cryto.net/pythonwhois
+        repository: https://github.com/joepie91/python-whois
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    PDFy:
+        category: maintained
+        description: A free instant PDF hosting and viewing service, that can be embedded into other websites.
+        website: http://pdf.yt/
+        repository: https://github.com/joepie91/pdfy
+        contributions_accepted: yes
+        license: WTFPL / CC0 (pdf.js portions Apache 2.0)
+    node-ia:
+        category: in_progress
+        description: A Node.js port of the `internetarchive` Python library, for interacting with the Internet Archive S3 and Metadata APIs.
+        repository: https://github.com/joepie91/node-ia
+        contributions_accepted: no
+        license: WTFPL / CC0
+    Cryto Team:
+        category: on_hold
+        notes: Currently on hold. A significant amount of code needs to be written before this is even remotely usable.
+        description: A project management and group collaboration platform for non-profit projects.
+        repository: https://github.com/joepie91/crytoteam
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Cryto-Status:
+        category: in_progress
+        description: A realtime server and service monitoring system.
+        repository: https://github.com/joepie91/cryto-status
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    CPHP:
+        category: in_progress
+        notes: In a usable state, and already used in numerous of the projects here, but largely undocumented and no official 1.0 release yet.
+        description: An intuitive PHP framework that can be learned in 60 minutes.
+        repository: https://github.com/joepie91/cphp
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Nexus:
+        category: in_progress
+        notes: An essential component of Fleet.
+        description: An arbitrary data and message routing daemon for distributed resource pools.
+        repository: https://github.com/joepie91/Nexus
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Radium:
+        category: in_progress
+        description: A light-weight batteries-included HTML5 game engine.
+        repository: https://github.com/joepie91/radium
+        contributions_accepted: no
+        license: WTFPL / CC0
+    vpslist:
+        category: on_hold
+        notes: Pending completion of a significant rewrite.
+        description: Web application for comparing VPS providers on various specifications, allowing for filtering and sorting.
+        website: http://vps-list.cryto.net/
+        repository: https://github.com/joepie91/vpslist
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    zippydoc:
+        category: maintained
+        description: Documentation markup language and library, including HTML converter.
+        version: 1.2
+        website: http://cryto.net/zippydoc
+        repository: https://github.com/joepie91/zippydoc
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    CVM:
+        category: on_hold
+        notes: Requires significant work before it is in a usable state. Please note that architecture-changing contributions are not currently accepted.
+        description: A free and open-source VPS panel.
+        repository: https://github.com/joepie91/cvm
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Cryto Books:
+        category: on_hold
+        notes: Pending significant rewrite, of the crawler(s) in particular. Help is much appreciated.
+        description: An e-book crawler and search engine.
+        version: 1.0
+        repository: https://github.com/joepie91/crytobooks
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Tahoe-S3:
+        category: on_hold
+        notes: Put on hold as non-essential. Will eventually be used for Fleet, but will be preceded by a generic CDN frontend.
+        description: An S3-like API frontend and self-healing mechanism for Tahoe-LAFS.
+        repository: https://github.com/joepie91/tahoe-s3
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    pytahoe:
+        category: maintained
+        notes: In need of some serious attention, capabilities are currently very limited. Usable for read-only usage, though.
+        description: A Python module for working with the Tahoe-LAFS filesystem.
+        version: 1.0.3
+        repository: https://github.com/joepie91/pytahoe
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    openNG:
+        category: on_hold
+        notes: On hold, pending decisions about a change in technology stack.
+        description: An open-source node graph-style intelligence platform
+        repository: https://github.com/joepie91/openNG
+        contributions_accepted: no
+        license: WTFPL / CC0
+    JSDE:
+        category: on_hold
+        notes: Newer, modified version using Angular.js incorporated in OpenNG. Future as a stand-alone project is uncertain.
+        description: Fully client-side 'desktop environment' in Javascript, intended for data processing web applications.
+        repository: https://github.com/joepie91/jsde
+        contributions_accepted: no
+        license: WTFPL / CC0
+    Envoy:
+        category: on_hold
+        notes: Project was axed by employer. Development may continue independently in the future.
+        description: An XMPP platform designed for team collaboration.
+        repository: https://github.com/KnightSwarm/Envoy
+        contributions_accepted: yes
+        license: GPLv3
+    Cryto.net:
+        category: on_hold
+        notes: More important projects to sort out currently. Will be resumed when there's time.
+        description: The new http://cryto.net/ website.
+        repository: https://github.com/joepie91/cryto-site
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    todo:
+        category: on_hold
+        notes: May get absorbed into a larger project involving externally pushed todo items. Hosted version will remain operational.
+        description: A todo web-app for overworked hackers.
+        repository: https://github.com/joepie91/todo
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    pyLSA:
+        category: on_hold
+        notes: Basic functionality works. Configuration and authentication code missing.
+        description: A self-contained simple statistics agent.
+        repository: https://github.com/joepie91/pyLSA
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Cryto Learn:
+        category: on_hold
+        notes: Pending completion of a bunch of crawlers. This is quite a bit of work to do correctly. Internal architecture also needs some work.
+        description: A meta-search engine for online courses and educational materials.
+        website: http://learn.cryto.net/
+        repository: https://github.com/joepie91/crytolearn
+        contributions_acceptd: yes
+        license: WTFPL / CC0
+    pysfx:
+        category: maintained
+        description: Tool for creating self-extracting self-contained Python scripts with autorun functionality.
+        version: 0.1
+        repository: https://github.com/joepie91/pysfx
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    resolv:
+        category: on_hold
+        notes: Resolvers need fixing. Architecture changes required to accomodate CAPTCHAs.
+        description: A Python module for resolving URLs of streaming sites and filehosters to direct download URLs.
+        version: 1.2.0
+        repository: https://github.com/joepie91/resolv
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    emailparser:
+        category: finished
+        notes: No formal documentation. Use --help on the various scripts for instructions.
+        description: Parser and static HTML renderer for .eml files.
+        repository: https://github.com/joepie91/emailparser
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    ScraperScript:
+        category: experiments
+        notes: Functional. Future development undetermined.
+        description: A bookmarklet that helps you find unique selectors for page elements.
+        website: http://cryto.net/scraperscript/
+        repository: https://github.com/joepie91/scraperscript
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    scantools:
+        category: maintained
+        description: An assortment of tools for scanning books.
+        repository: https://github.com/joepie91/scantools
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Python Documentation:
+        category: on_hold
+        notes: Documentation takes a lot of time to write correctly. On hold indefinitely until I find the time.
+        description: An attempt at writing better Python documentation.
+        repository: https://github.com/joepie91/python-docs
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    filething:
+        category: maintained
+        description: A thin light-weight wrapper library, to make filesystem operations in Python suck less.
+        version: 1.0
+        repository: https://github.com/joepie91/filething
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    image-disc:
+        category: finished
+        description: A small utility to batch-create archival-quality images of CDs/DVDs on Linux.
+        repository: https://github.com/joepie91/image-disc
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    wpcom-to-jekyll:
+        category: finished
+        description: A WordPress.com-to-Jekyll converter.
+        repository: https://github.com/joepie91/wpcom-to-jekyll
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    phenny:
+        category: maintained
+        notes: This is a fork of https://github.com/sbp/phenny. Additional plugins are developed from time to time.
+        description: A Python IRC bot.
+        repository: https://github.com/joepie91/phenny
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    nzbspider:
+        category: finished
+        description: A simple tool to automatically download NZBs for given releases.
+        repository: https://github.com/joepie91/nzbspider
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    circd:
+        category: unmaintained
+        description: My first attempt at writing an IRCd, in Python.
+        repository: https://github.com/joepie91/circd
+        contributions_accepted: no
+        license: WTFPL / CC0
+    isohunt-grab: 
+        category: finished
+        description: A seesaw pipeline for Isohunt archiving.
+        repository: https://github.com/joepie91/isohunt-grab
+        contributions_accepted: no
+        license: WTFPL / CC0
+    decube:
+        category: finished
+        description: A quick tool for decoding HTML source that is encoded with the Ioncube HTML encoder.
+        repository: https://github.com/joepie91/main/blob/master/tools/decoding/decube.py
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    bayfilesfetch:
+        category: finished
+        notes: This may or may not still work.
+        description: A script for turning Bayfiles URLs into wget-able URLs.
+        repository: https://github.com/joepie91/main/blob/master/tools/downloading/bayfilesfetch.py
+        contributions_accepted: no
+        license: WTFPL / CC0
+    minusfetch:
+        category: finished
+        notes: This may or may not still work.
+        description: A script for turning Min.us URLs into wget-able URLs.
+        repository: https://github.com/joepie91/main/blob/master/tools/downloading/minusfetch.py
+        contributions_accepted: no
+        license: WTFPL / CC0
+    musicsearch.py:
+        category: finished
+        description: A commandline script for searching (and playing) music files via ex.fm.
+        repository: https://github.com/joepie91/main/blob/master/tools/downloading/musicsearch.py
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    resolv_dl:
+        category: finished
+        description: Resolves a URL from a file or video host using the `resolv` library, and downloads it.
+        repository: https://github.com/joepie91/main/blob/master/tools/downloading/resolv_dl.py
+        contributions_accepted: no
+        license: WTFPL / CC0
+    resolv_vlc:
+        category: finished
+        description: Resolves a URL from a file or video host using the `resolv` library, and downloads it.
+        repository: https://github.com/joepie91/main/blob/master/tools/downloading/resolv_dl.py
+        contributions_accepted: no
+        license: WTFPL / CC0
+    webfonts.py:
+        category: on_hold
+        notes: Currently quite broken. Fails to retrieve all types of font formats.
+        description: A script for downloading font files from Google Webfonts in various formats.
+        repository: https://github.com/joepie91/main/blob/master/tools/downloading/webfonts.py
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    catarc:
+        category: maintained
+        description: A tool to output (multiple) archives and compressed files to stdout, without the decompressed data ever touching the disk.
+        version: 1.1
+        repository: https://github.com/joepie91/catarc
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    sha1rename:
+        category: finished
+        description: A script for renaming files according to their own SHA1 hash.
+        repository: https://github.com/joepie91/main/blob/master/tools/file-processing/sha1rename.py
+        contributions_accepted: no
+        license: WTFPL / CC0
+    ipcheck:
+        category: finished
+        notes: Messy. The `dnsbl.txt` file is included in the parent folder.
+        description: A mass-DNSBL-checking IRC bot, for networks whose services package and IRCd do not have DNSBL functionality. Requires oper credentials.
+        repository: https://github.com/joepie91/main/blob/master/tools/irc/ipcheck.py
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    rakill:
+        category: finished
+        description: An IRC bot that can match all users on a network against a regular expression, and list, kill or gline them. Useful for dealing with IRC botfloods when the services package is lacking in moderation tools. Supports UnrealIRCd and InspIRCd (and possibly others).
+        repository: https://github.com/joepie91/main/blob/master/tools/irc/rakill.py
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    flickrgrab:
+        category: finished
+        notes: May or may not still work.
+        description: Script for mass-downloading a Flickr user.
+        repository: https://github.com/joepie91/main/blob/master/tools/scrapers/flickrgrab.py
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    speedtest.py:
+        category: unmaintained
+        notes: Never finished. Works for downloading, but not for uploading. Plenty of alternatives around.
+        description: A script for running a speedtest from your terminal.
+        repository: https://github.com/joepie91/main/blob/master/tools/server-management/speedtest.py
+        contributions_accepted: no
+        license: WTFPL / CC0
+    BoxOnABudget:
+        category: on_hold
+        notes: Unlikely to ever be finished. Originally intended as a replacement for LowEndBox/LowEndTalk, but seems VPSBoard has that mostly covered now.
+        description: The forum and blog software for the (work-in-progress) BoxOnABudget site.
+        repository: https://github.com/joepie91/box
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    4chandownloader:
+        category: unmaintained
+        notes: Probably broken.
+        description: A script to download all full-size images in a 4chan thread.
+        repository: https://github.com/joepie91/4chandownloader
+        contributions_accepted: no
+        license: WTFPL / CC0
+    jamendoparser:
+        category: unmaintained
+        notes: Given the Jamendo API changes, it's very questionable whether this script still works or will keep working in the future.
+        description: A script that downloads the Jamendo database dump, and parses it into an SQLite database.
+        repository: https://github.com/joepie91/jamendoparser
+        contributions_accepted: no
+        license: WTFPL / CC0
+    hypervm-migrate:
+        category: unmaintained
+        notes: Functional against the version of HyperVM at the date of last release (March 7, 2013). No guarantees, always backup your stuff.
+        description: A HyperVM mass migration script.
+        repository: https://github.com/joepie91/hypervm-migrate
+        contributions_accepted: no
+        license: WTFPL / CC0
+    multiloggy:
+        category: maintained
+        notes: This is a fork of Sean B. Palmers' `loggy` bot. The original did not have support for more than one channel.
+        description: A public IRC logging bot, with multi-channel support.
+        repository: https://github.com/joepie91/multiloggy
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    tahoe-tools:
+        category: finished
+        description: Some miscellaneous tools for interacting with a Tahoe-LAFS storage grid.
+        repository: https://github.com/joepie91/tahoe-tools
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    nodecontrol:
+        category: unmaintained
+        notes: Superseded by Nexus and Cryto-Status.
+        description: Server deployment, control and monitoring application.
+        repository: https://github.com/joepie91/nodecontrol
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Cryto WHOIS:
+        category: on_hold
+        notes: This turned out not to work well with lighttpd. MongoDB also turns out to be a bad choice. May be rewritten in the future.
+        description: A web-based public frontend for the `pythonwhois` library.
+        website: http://whois.cryto.net/
+        repository: https://github.com/joepie91/crytowhois
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    multipaste:
+        category: unmaintained
+        notes: Messy, probably broken by now.
+        description: Quick-and-dirty script for pasting the same text to multiple pastebin services.
+        repository: https://github.com/joepie91/multipaste
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    Webshots Tools:
+        category: finished
+        notes: Webshots is no more.
+        description: Crawling tools for the ArchiveTeam Webshots archiving project.
+        repository: https://github.com/joepie91/webshots
+        contributions_accepted: no
+        license: WTFPL / CC0
+    pyreactor:
+        category: on_hold
+        notes: Fate uncertain. May perhaps be updated to use ZeroMQ, but is likely to simply be abandoned.
+        description: A simple evented networking library for Python, designed for easy creation of custom protocols.
+        repository: https://github.com/joepie91/pyreactor
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    lighttpdparse:
+        category: finished
+        description: A simple script for getting the top statistics from one or more lighttpd access log files.
+        repository: https://github.com/joepie91/lighttpdparse
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    GMHost:
+        category: unmaintained
+        notes: Hosted service currently down. Low demand.
+        description: A simple Tahoe-LAFS based filehosting service.
+        website: http://gmhost.cryto.net/
+        repository: https://github.com/joepie91/gmhost
+        contributions_accepted: yes
+        license: WTFPL / CC0

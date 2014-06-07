@@ -1,0 +1,113 @@
+body
+{
+	font-family: sans-serif;
+	
+	.wrapper
+	{
+		width: 960px;
+		margin: 0px auto;
+	}
+	
+	.category
+	{
+		border-top: 2px solid silver;
+		padding-top: 8px;
+		margin-top: 40px;
+		
+		p
+		{
+			margin-bottom: 32px;
+		}
+		
+		.project
+		{
+			background: #f2f2f2; /* Old browsers */
+			background: -moz-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #f2f2f2 0%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #f2f2f2 0%,#e0e0e0 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, #f2f2f2 0%,#e0e0e0 100%); /* IE10+ */
+			background: linear-gradient(to bottom, #f2f2f2 0%,#e0e0e0 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+			
+			box-shadow: 0px 1px 7px 1px #8f8f8f;
+			-webkit-box-shadow: 0px 1px 7px 1px #8f8f8f;
+			-moz-box-shadow: 0px 1px 7px 1px #8f8f8f;
+			-o-box-shadow: 0px 1px 7px 1px #8f8f8f;
+			-ms-box-shadow: 0px 1px 7px 1px #8f8f8f;
+			
+			border-radius: 9px;
+			margin-bottom: 18px;
+			overflow: hidden;
+			
+			.contents
+			{
+				padding: 14px 18px;
+			}
+			
+			h3
+			{
+				margin-top: 0px;
+				margin-bottom: 0px;
+				font-size: 24px;
+			}
+			
+			p
+			{
+				margin-bottom: 0px;
+				
+				&.notes
+				{
+					font-weight: bold;
+					
+					i
+					{
+						margin-right: 5px;
+					}
+				}
+				
+				&.license
+				{
+					color: rgb(135, 136, 141);
+					font-size: 14px;
+					margin-top: 2px;
+				}
+			}
+			
+			.top-bar
+			{
+				float: right;
+				display: block;
+				padding: 8px 16px;
+				font-size: 18px;
+				text-decoration: none;
+				color: #2e2e2e;
+				border-bottom: 1px solid silver;
+				border-left: 1px solid silver;
+				border-top: 0px;
+				border-right: 0px;
+				background-color: transparent;
+				
+				&:last-child
+				{
+					border-bottom-left-radius: 7px;
+				}
+				
+				i
+				{
+					margin-right: 5px;
+				}
+				
+				&.contributions-yes
+				{
+					color: rgb(0, 82, 0);
+				}
+				
+				&.contributions-no
+				{
+					color: rgb(172, 0, 0);
+				}
+			}
+		}
+	}
+}

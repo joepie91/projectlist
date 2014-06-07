@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif; }
+  body .wrapper {
+    width: 960px;
+    margin: 0px auto; }
+  body .category {
+    border-top: 2px solid silver;
+    padding-top: 8px;
+    margin-top: 40px; }
+    body .category p {
+      margin-bottom: 32px; }
+    body .category .project {
+      background: #f2f2f2;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #e0e0e0));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #f2f2f2 0%, #e0e0e0 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, #f2f2f2 0%, #e0e0e0 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e0e0e0',GradientType=0 );
+      /* IE6-9 */
+      box-shadow: 0px 1px 7px 1px #8f8f8f;
+      -webkit-box-shadow: 0px 1px 7px 1px #8f8f8f;
+      -moz-box-shadow: 0px 1px 7px 1px #8f8f8f;
+      -o-box-shadow: 0px 1px 7px 1px #8f8f8f;
+      -ms-box-shadow: 0px 1px 7px 1px #8f8f8f;
+      border-radius: 9px;
+      margin-bottom: 18px;
+      overflow: hidden; }
+      body .category .project .contents {
+        padding: 14px 18px; }
+      body .category .project h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 24px; }
+      body .category .project p {
+        margin-bottom: 0px; }
+        body .category .project p.notes {
+          font-weight: bold; }
+          body .category .project p.notes i {
+            margin-right: 5px; }
+        body .category .project p.license {
+          color: #87888d;
+          font-size: 14px;
+          margin-top: 2px; }
+      body .category .project .top-bar {
+        float: right;
+        display: block;
+        padding: 8px 16px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #2e2e2e;
+        border-bottom: 1px solid silver;
+        border-left: 1px solid silver;
+        border-top: 0px;
+        border-right: 0px;
+        background-color: transparent; }
+        body .category .project .top-bar:last-child {
+          border-bottom-left-radius: 7px; }
+        body .category .project .top-bar i {
+          margin-right: 5px; }
+        body .category .project .top-bar.contributions-yes {
+          color: #005200; }
+        body .category .project .top-bar.contributions-no {
+          color: #ac0000; }
+
+/*# sourceMappingURL=style.css.map */
