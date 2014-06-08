@@ -289,7 +289,7 @@ projects:
         description: A Python IRC bot.
         repository: https://github.com/joepie91/phenny
         contributions_accepted: yes
-        license: Core: Eiffel Forum License 2, added plugins: WTFPL / CC0
+        license: "Core: Eiffel Forum License 2, added plugins: WTFPL / CC0"
     nzbspider:
         category: finished
         description: A simple tool to automatically download NZBs for given releases.
