@@ -43,6 +43,13 @@ projects:
         repository: https://github.com/joepie91/anonnews2
         contributions_accepted: no
         license: WTFPL / CC0
+    PDFy:
+        category: maintained
+        description: A free instant PDF hosting and viewing service, that can be embedded into other websites.
+        website: http://pdf.yt/
+        repository: https://github.com/joepie91/pdfy
+        contributions_accepted: yes
+        license: WTFPL / CC0 (pdf.js portions Apache 2.0)
     ReDonate:
         category: maintained
         notes: Needs work. In particular in the area of statistics.
@@ -73,13 +80,12 @@ projects:
         repository: https://github.com/joepie91/python-whois
         contributions_accepted: yes
         license: WTFPL / CC0
-    PDFy:
+    projectlist:
         category: maintained
-        description: A free instant PDF hosting and viewing service, that can be embedded into other websites.
-        website: http://pdf.yt/
-        repository: https://github.com/joepie91/pdfy
+        description: The source for this page.
+        repository: https://github.com/joepie91/projectlist
         contributions_accepted: yes
-        license: WTFPL / CC0 (pdf.js portions Apache 2.0)
+        license: WTFPL / CC0
     node-ia:
         category: in_progress
         description: A Node.js port of the `internetarchive` Python library, for interacting with the Internet Archive S3 and Metadata APIs.
