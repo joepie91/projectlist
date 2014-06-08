@@ -66,9 +66,9 @@ foreach($data["projects"] as $project_name => $project_data)
 									<?php endif; ?>
 									
 									<?php if(!empty($project["contributions_accepted"])): ?>
-										<div class="top-bar contributions-yes"><i class="fa fa-code-fork"></i> Contributions are welcome!</div>
+										<div class="top-bar contributions-yes"><i class="fa fa-code-fork"></i> Code contributions are welcome!</div>
 									<?php else: ?>
-										<div class="top-bar contributions-no"><i class="fa fa-times"></i> Contributions not accepted</div>
+										<div class="top-bar contributions-no"><i class="fa fa-times"></i> Code contributions not accepted</div>
 									<?php endif; ?>
 									
 									<?php if(!empty($project["website"])): ?>
