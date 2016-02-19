@@ -342,8 +342,8 @@ projects:
         license: WTFPL / CC0
     resolv_vlc:
         category: finished
-        description: Resolves a URL from a file or video host using the `resolv` library, and downloads it.
-        repository: https://github.com/joepie91/main/blob/master/tools/downloading/resolv_dl.py
+        description: Resolves a URL from a file or video host using the `resolv` library, and plays it in VLC.
+        repository: https://github.com/joepie91/main/blob/master/tools/downloading/resolv_vlc.py
         contributions_accepted: no
         license: WTFPL / CC0
     webfonts.py:
