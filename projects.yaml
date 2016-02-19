@@ -484,3 +484,39 @@ projects:
         repository: https://github.com/joepie91/gmhost
         contributions_accepted: yes
         license: WTFPL / CC0
+    node-bhttp:
+        category: maintained
+        description: A sane HTTP client library for Node.js with Streams2 support.
+        repository: https://github.com/joepie91/node-bhttp
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    node-form-data2:
+        category: maintained
+        description: A Streams2-compatible drop-in replacement for the `form-data` module.
+        repository: https://github.com/joepie91/node-form-data2
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    node-combined-stream2:
+        category: maintained
+        description: A drop-in Streams2-compatible replacement for combined-stream.
+        repository: https://github.com/joepie91/node-combined-stream2
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    node-stream-length:
+        category: maintained
+        description: For a given Buffer or Stream, this module will attempt to determine the total length of the stream contents.
+        repository: https://github.com/joepie91/node-stream-length
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    node-bitmask-flags:
+        category: maintained
+        description: A utility for dealing with flags and permissions using bitmasks.
+        repository: https://github.com/joepie91/node-bitmask-flags
+        contributions_accepted: yes
+        license: WTFPL / CC0
+    scrypt-for-humans:
+        category: maintained
+        description: A human-friendly API wrapper for the Node.js Scrypt bindings.
+        repository: https://github.com/joepie91/scrypt-for-humans
+        contributions_accepted: yes
+        license: WTFPL / CC0
